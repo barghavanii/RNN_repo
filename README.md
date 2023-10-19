@@ -1,2 +1,3 @@
-# RNN_repo
-Deep Learning assignment3 
+# Problem 4. Recurrent Neural Network
+
+Implement a bidirectional RNN in Python. The network should take in a sequence of inputs and output a prediction for each timestep. The network should have the following architecture: • An input layer that takes in a sequence of vectors of length n. • A forward LSTM layer with h hidden units. • A backward LSTM layer with h hidden units. • A concatenation layer that concatenates the outputs from the forward and backward LSTM layers. • A fully connected layer that outputs a prediction for each timestep. The network should be trained on a dataset of sequences and corresponding labels. The loss function used for training should be the mean squared error between the network’s predictions and the true labels. For this I try to use imdb dataset to implement this part
