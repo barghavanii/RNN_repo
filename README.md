@@ -1,4 +1,4 @@
-Problem 1. Gated Recurrent Unit
+# Problem 1. Gated Recurrent Unit
 
 -Implement a Gated Recurrent Unit (GRU) in Python using numpy.
 -Given a sequence of inputs and corresponding hidden states, the GRU should compute the output hidden states at each time step using the equations pro- vided above.
