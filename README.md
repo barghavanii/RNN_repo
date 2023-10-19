@@ -1,2 +1,3 @@
-# RNN_repo
-Deep Learning assignment3 
+# Problem 3. Recurrent Neural Network
+
+Implement a function rnn_backpropagation(W, U, V, x, y, k, g, g_prime, e_prime) that performs the RNN backward propagation through time algorithm described in the text. The function should take in the following inputs: • W: The weight matrix for the hidden units moving forward in time • U: The weight matrix for the input units • V: The weight matrix for the output units • x: The input sequence • y: The true output sequence • k: The length of the input and output sequences • g: The non-linear activation function • g_prime: The derivative of the non-linear activation function • e_prime: The derivative of the error function The function should return a tuple of the gradients for W, U, and V.
